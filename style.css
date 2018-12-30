@@ -1,0 +1,29 @@
+body{
+  max-width: 1000px;
+  margin: auto;
+  font-family: 'Open Sans', sans-serif;
+}
+
+label{
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+#number-input,
+select{
+  margin: 0 10px 10px 0;
+}
+
+#search-input{
+  width: 250px;
+}
+
+#results{
+  margin-bottom: 30px;
+}
+
+@media (max-width: 1000px){
+  body{
+    margin: 10px;
+  }
+}
